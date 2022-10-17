@@ -1,0 +1,77 @@
+---
+title: "I did a thing"
+subtitle: "Ok, maybe a few things"
+author: "Your Name"
+date: today
+from: markdown+emoji
+format: 
+  revealjs:
+    navigation-mode: vertical
+    self-contained: true
+    includes:
+      in_header: |
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat:ital,wght@0,400;0,500;1,400;1,500&family=Roboto:ital,wght@0,500;1,500&display=swap');
+        </style>
+    theme: [default, libs/styles.css, libs/fonts.css]
+    logo: libs/N.svg
+---
+
+# Testing, [Testing]{.emph .cerulean} Top level slides
+
+## New Slide
+
+Content goes here
+
+::: notes
+Speaker notes in here
+:::
+
+# A Different topic
+
+::: notes
+More speaker notes
+:::
+
+## Sub-topic 1
+
+### Sub-heading
+
+## Sub-topic 2
+
+### Another sub-heading
+
+::: large
+You can use `:::` div sections to make text larger or smaller
+:::
+
+
+This text is normal size
+
+## Sub-topic 2
+
+### Another sub-heading
+
+::: {.large .center}
+You can also add multiple classes - such as large and centering
+:::
+
+
+## Here's a fun table
+
++------------------+:------------------:+:------------------:+:------------------:+
+|                  |                    | Examiner Decisions |                    |
++------------------+--------------------+--------------------+--------------------+
+| Reality          | Identification\    | Inconclusive       | Elimination\       |
+|                  | (match)            |                    | (no match)         |
++------------------+--------------------+--------------------+--------------------+
+| Same Source      | :white_check_mark: | :raised_eyebrow:   | :x:                |
++------------------+--------------------+--------------------+--------------------+
+| Different Source | :x:                | :raised_eyebrow:   | :white_check_mark: |
++------------------+--------------------+--------------------+--------------------+
+
+## And some sort of equation-ish thing
+
+$$\left(\begin{array}{c}\text{Identification}\\\text{Inconclusive}\\\text{Elimination}\end{array}\right)\times\left(\begin{array}{c}\text{Algorithm}\\\text{Status quo}\end{array}\right)\times\left(\begin{array}{c}\text{Pictures + Text}\\\text{Only Text}\end{array}\right)$$
+
+## Conclusion
